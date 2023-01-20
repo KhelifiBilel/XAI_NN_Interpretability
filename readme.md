@@ -61,7 +61,7 @@ Principe : Les patches essentiels pour classifier les images d’une classe k do
     * Améliorer l’accuracy sans modifier les prototypes.
 
 
-`Comment fonctionne pour la phase de test ?`
+`Comment ça fonctionne pour la phase de test ?`
 1. Le modèle identifie plusieurs patches de l'image où il suppose que chaque partie ressemble à un prototype d'une certaine classe.
 2. La comparaison de chaque patch avec les tous les prototypes produit une map similarity, qui sera sur-échantillonnée et superposée sur l’image originale pour visualiser l’ Activation map (de chaque prototype). 
 3. La classification est basée sur une combinaison pondérée des scores de similarité entre les patches de l'image et les prototypes existants. 
