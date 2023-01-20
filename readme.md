@@ -1,13 +1,13 @@
 # Interpretability of a deep neural network applied for an in vitro fertilization case
 
 ### Contexte général
-L'objectif de ce travail est d'appliquer le modèle ProtoPNET, proposé par "This Looks Like That: Deep Learning for Interpretable Image Recognition", de Chaofan Chen et al. , dans un cas  d'imagerie médicale, en particulier la FIV, pour la séléction des embryons qui ont un bon potentiel d'implantation par les embryologistes. 
+* L'objectif de ce travail est d'appliquer le modèle ProtoPNET, proposé par "This Looks Like That: Deep Learning for Interpretable Image Recognition", de Chaofan Chen et al. , dans un cas  d'imagerie médicale, en particulier la FIV, pour la séléction des embryons qui ont un bon potentiel d'implantation par les embryologistes. 
 
 ### Principe du modèle ProtoPNet:
-Prototype Part Network: pour une image donnée, identifie des parties (patches) qui sont similaires à des prototypes générés lors de la phase d’apprentissage, et la classifie selon des scores de similarités avec les prototypes.
+* Prototype Part Network: pour une image donnée, identifie des parties (patches) qui sont similaires à des prototypes générés lors de la phase d’apprentissage, et la classifie selon des scores de similarités avec les prototypes.
 
 ### Dataset
-Le dataset que nous utilisons est composé de 756 vidéos. Chaque vidéo contient entre 300 et 600 images avec une résolution de 500 x 500 pixels. Chaque vidéo illustre le développement d’un embryon particulier et chaque frame de chaque vidéo correspond finalement à une classe. Étant donné que nous avons travaillé sur la prédiction de la phase d’apparition des pronuclei tPN, on élimine par conséquent chaque image qui dépasse la fin de cette phrase particulière.
+* Le dataset que nous utilisons est composé de 756 vidéos. Chaque vidéo contient entre 300 et 600 images avec une résolution de 500 x 500 pixels. Chaque vidéo illustre le développement d’un embryon particulier et chaque frame de chaque vidéo correspond finalement à une classe. Étant donné que nous avons travaillé sur la prédiction de la phase d’apparition des pronuclei tPN, on élimine par conséquent chaque image qui dépasse la fin de cette phrase particulière.
 
 Lien du dataset: 
 
