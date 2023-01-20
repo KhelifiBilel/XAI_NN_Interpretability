@@ -14,7 +14,7 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
 
 | Before processing | New samples  |
 |---|---|
-|![image1](assets/orig.jpeg=250x)|![image2](assets/new_data.png=250x)|
+|![image1](assets/orig.jpeg =250x250)|![image2](assets/new_data.png =250x250)|
 
 ### Repository Structure
 * **ProtoPN_publicData.ipynb** : notebook contenant l'exécution du prétraitement et de l'apprentissage du modèle (pour le dataset public)
