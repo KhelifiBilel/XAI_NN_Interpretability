@@ -13,9 +13,9 @@ Lien du dataset:
 
 Pour améliorer la qualité des données, on applique un cropping automatique avec Hough Transform et une amélioration des paramètres de brillance et contraste des frames.
 
-| Before processing | New samples  |
-|---|---|
-|![image1](assets/orig_sample.png)|![image2](assets/new_data.png)|
+| Before processing | Region of Interest | New samples  |
+|---|---|--|
+|![image1](assets/orig_sample.png)|![image2](assets/ROI.png)|![image3](assets/new_data.png)|
 
 ### Repository Structure
 * **ProtoPN_publicData.ipynb** : notebook contenant l'exécution du prétraitement et de l'apprentissage du modèle (pour le dataset public)
