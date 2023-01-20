@@ -1,9 +1,9 @@
 # Interpretability of a deep neural network applied for an in vitro fertilization case
 
-#### Contexte général
+### Contexte général
 L'objectif de ce travail est d'appliquer le modèle ProtoPNET, proposé par "This Looks Like That: Deep Learning for Interpretable Image Recognition", de Chaofan Chen et al. , dans un cas  d'imagerie médicale, en particulier la FIV, pour la séléction des embryons qui ont un bon potentiel d'implantation par les embryologistes. 
 
-#### Principe du modèle ProtoPNet:
+### Principe du modèle ProtoPNet:
 Prototype Part Network: pour une image donnée, identifie des parties (patches) qui sont similaires à des prototypes générés lors de la phase d’apprentissage, et la classifie selon des scores de similarités avec les prototypes.
 
 ### Dataset
