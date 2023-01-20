@@ -14,7 +14,7 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
 
 | Before processing | New samples  |
 |---|---|
-|![Image 1](assets/orig.png =250x)|![Image 2](assets/new_data.png=250x)|
+|![./assets/orig.png =250x]|![./assets/new_data.png=250x]|
 
 ### Repository Structure
 * **ProtoPN_publicData.ipynb** : notebook contenant l'exécution du prétraitement et de l'apprentissage du modèle (pour le dataset public)
@@ -37,10 +37,10 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
       * La phase de projection des prototypes commencent à l’epoch _push_start_ ( pour avoir des prototypes significatifs).
 
 L'architecture définit par model.py :
-![Alt text](assets/model_architecture=250x)
+![./assets/model_architecture=250x]
 
 L'algorithme de la phase d'apprentissage:
-![Alt text](assets/train_algo=250x)
+![./assets/train_algo=250x]
 
 `Différentes phases de l'apprentissage:`
 *  **1. Optimisation (SGD) de toutes les poids sauf ceux de la dernière couche ( FC freezed)**
