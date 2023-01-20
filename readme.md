@@ -8,13 +8,14 @@ Prototype Part Network: pour une image donnée, identifie des parties (patches) 
 
 ### Dataset
 Le dataset que nous utilisons est composé de 756 vidéos. Chaque vidéo contient entre 300 et 600 images avec une résolution de 500 x 500 pixels. Chaque vidéo illustre le développement d’un embryon particulier et chaque frame de chaque vidéo correspond finalement à une classe. Étant donné que nous avons travaillé sur la prédiction de la phase d’apparition des pronuclei tPN, on élimine par conséquent chaque image qui dépasse la fin de cette phrase particulière.
-Lien du dataset:
+
+Lien du dataset: 
 
 Pour améliorer la qualité des données, on applique un cropping automatique avec Hough Transform et une amélioration des paramètres de brillance et contraste des frames.
 
 | Before processing | New samples  |
 |---|---|
-|![image1](assets/orig.jpeg)|![image2](assets/new_data.png)|
+|![image1](assets/orig_sample.jpeg)|![image2](assets/new_data.png)|
 
 ### Repository Structure
 * **ProtoPN_publicData.ipynb** : notebook contenant l'exécution du prétraitement et de l'apprentissage du modèle (pour le dataset public)
