@@ -14,7 +14,7 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
 
 | Before processing | New samples  |
 |---|---|
-|![github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/orig.jpeg]|![github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/new_data.png]|
+|![image1](github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/orig.jpeg)|![image2](github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/new_data.png)|
 
 ### Repository Structure
 * **ProtoPN_publicData.ipynb** : notebook contenant l'exécution du prétraitement et de l'apprentissage du modèle (pour le dataset public)
@@ -37,10 +37,10 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
       * La phase de projection des prototypes commencent à l’epoch _push_start_ ( pour avoir des prototypes significatifs).
 
 L'architecture définit par model.py :
-![github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/model_architecture.png]
+![image1](github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/model_architecture.png)
 
 L'algorithme de la phase d'apprentissage:
-![github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/train_algo.png]
+![image2](github.com/KhelifiBilel/XAI_NN_Interpretability/blob/main/assets/train_algo.png)
 
 `Différentes phases de l'apprentissage:`
 *  **1. Optimisation (SGD) de toutes les poids sauf ceux de la dernière couche ( FC freezed)**
