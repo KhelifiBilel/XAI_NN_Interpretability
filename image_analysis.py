@@ -19,7 +19,6 @@ import model
 import push
 import train_and_test as tnt
 from log import create_logger
-from preprocess import *
 
  
 
@@ -86,9 +85,7 @@ else:
 ##### HELPER FUNCTIONS FOR PLOTTING
 def save_preprocessed_img(fname, preprocessed_imgs, index=0):
     img_copy = copy.deepcopy(preprocessed_imgs[index:index+1])
-    undo_preprocessed_img = undo_preprocess_input_function(img_copy)
-    print('image index {0} in batch'.format(index))
-    undo_preprocessed_img = undo_preprocessed_img[0]
+    undo_preprocessed_img = img_copy[0]
     undo_preprocessed_img = undo_preprocessed_img.detach().cpu().numpy()
     undo_preprocessed_img = np.transpose(undo_preprocessed_img, [1,2,0])
     
@@ -163,7 +160,7 @@ predicted_cls = tables[idx][0]
 correct_cls = tables[idx][1]
 log('Predicted: ' + str(predicted_cls))
 log('Actual: ' + str(correct_cls))
-original_img = save_preprocessed_img(os.path.join(save_analysis_path, 'original_img.png'),
+original_img = save_preprocessed_img(os.path.join(save_analysis_path, 'test_img.png'),
                                      images_test, idx)
 
 ##### MOST ACTIVATED (NEAREST) 10 PROTOTYPES OF THIS IMAGE
@@ -176,19 +173,7 @@ for i in range(1,3):
     save_prototype(os.path.join(save_analysis_path, 'most_activated_prototypes',
                                 'top-%d_activated_prototype.png' % i),
                    start_epoch_number, sorted_indices_act[-i].item())
-    '''
-    save_prototype_original_img_with_bbox(fname=os.path.join(save_analysis_path, 'most_activated_prototypes',
-                                                            'top-%d_activated_prototype_in_original_pimg.png' % i),
-                                          epoch=start_epoch_number,
-                                          index=sorted_indices_act[-i].item(),
-                                          bbox_height_start=prototype_info[sorted_indices_act[-i].item()][1],
-                                          bbox_height_end=prototype_info[sorted_indices_act[-i].item()][2],
-                                          bbox_width_start=prototype_info[sorted_indices_act[-i].item()][3],
-                                          bbox_width_end=prototype_info[sorted_indices_act[-i].item()][4],
-                                          color=(0, 255, 255)) '''
-   # save_prototype_self_activation(os.path.join(save_analysis_path, 'most_activated_prototypes',
-     #                                           'top-%d_activated_prototype_self_act.png' % i),
-      #                             start_epoch_number, sorted_indices_act[-i].item())
+  
     log('prototype index: {0}'.format(sorted_indices_act[-i].item()))
     log('prototype class identity: {0}'.format(prototype_img_identity[sorted_indices_act[-i].item()]))
     if prototype_max_connection[sorted_indices_act[-i].item()] != prototype_img_identity[sorted_indices_act[-i].item()]:
