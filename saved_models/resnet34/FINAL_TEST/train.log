@@ -1,0 +1,1169 @@
+training set size: 1167
+push set size: 1167
+test set size: 207
+batch size: 30
+start training
+epoch: 	0
+	warm
+	train
+	time: 	52.938
+	cross ent: 	0.687
+	cluster: 	6.884
+	separation:	7.497
+	avg separation:	24.791
+	accu: 		55.441%
+	l1: 		12.000
+	p dist pair: 	34.580
+	test
+	time: 	8.816
+	cross ent: 	0.687
+	cluster: 	1.811
+	separation:	2.032
+	avg separation:	20.581
+	accu: 		55.072%
+	l1: 		12.000
+	p dist pair: 	34.580
+epoch: 	1
+	warm
+	train
+	time: 	50.893
+	cross ent: 	0.621
+	cluster: 	0.811
+	separation:	1.138
+	avg separation:	20.469
+	accu: 		65.381%
+	l1: 		12.000
+	p dist pair: 	35.308
+	test
+	time: 	8.741
+	cross ent: 	0.568
+	cluster: 	0.678
+	separation:	1.228
+	avg separation:	19.074
+	accu: 		71.014%
+	l1: 		12.000
+	p dist pair: 	35.308
+epoch: 	2
+	warm
+	train
+	time: 	51.635
+	cross ent: 	0.507
+	cluster: 	0.433
+	separation:	1.027
+	avg separation:	20.079
+	accu: 		76.435%
+	l1: 		12.000
+	p dist pair: 	34.795
+	test
+	time: 	8.910
+	cross ent: 	0.499
+	cluster: 	0.414
+	separation:	1.087
+	avg separation:	19.268
+	accu: 		78.744%
+	l1: 		12.000
+	p dist pair: 	34.795
+epoch: 	3
+	warm
+	train
+	time: 	51.501
+	cross ent: 	0.414
+	cluster: 	0.318
+	separation:	1.283
+	avg separation:	18.798
+	accu: 		82.177%
+	l1: 		12.000
+	p dist pair: 	34.549
+	test
+	time: 	8.895
+	cross ent: 	0.389
+	cluster: 	0.298
+	separation:	1.533
+	avg separation:	17.930
+	accu: 		83.092%
+	l1: 		12.000
+	p dist pair: 	34.549
+epoch: 	4
+	warm
+	train
+	time: 	52.541
+	cross ent: 	0.324
+	cluster: 	0.315
+	separation:	2.390
+	avg separation:	17.357
+	accu: 		88.260%
+	l1: 		12.000
+	p dist pair: 	33.957
+	test
+	time: 	9.029
+	cross ent: 	0.318
+	cluster: 	0.313
+	separation:	2.884
+	avg separation:	16.823
+	accu: 		87.440%
+	l1: 		12.000
+	p dist pair: 	33.957
+epoch: 	5
+	warm
+	train
+	time: 	51.888
+	cross ent: 	0.324
+	cluster: 	0.325
+	separation:	3.564
+	avg separation:	16.594
+	accu: 		86.804%
+	l1: 		12.000
+	p dist pair: 	33.815
+	test
+	time: 	8.960
+	cross ent: 	0.384
+	cluster: 	0.454
+	separation:	4.928
+	avg separation:	17.125
+	accu: 		84.058%
+	l1: 		12.000
+	p dist pair: 	33.815
+epoch: 	6
+	warm
+	train
+	time: 	52.196
+	cross ent: 	0.321
+	cluster: 	0.376
+	separation:	4.970
+	avg separation:	16.649
+	accu: 		87.061%
+	l1: 		12.000
+	p dist pair: 	35.219
+	test
+	time: 	9.421
+	cross ent: 	0.332
+	cluster: 	0.308
+	separation:	4.599
+	avg separation:	17.793
+	accu: 		86.957%
+	l1: 		12.000
+	p dist pair: 	35.219
+	push
+	Executing push ...
+	push time: 	52.53873324394226
+	test
+	time: 	9.020
+	cross ent: 	0.390
+	cluster: 	0.145
+	separation:	0.529
+	avg separation:	1.838
+	accu: 		83.575%
+	l1: 		12.000
+	p dist pair: 	6.495
+	last layer
+iteration: 	0
+	train
+	time: 	52.455
+	cross ent: 	0.429
+	cluster: 	0.134
+	separation:	0.624
+	avg separation:	2.033
+	accu: 		83.290%
+	l1: 		11.723
+	p dist pair: 	6.495
+	test
+	time: 	9.000
+	cross ent: 	0.367
+	cluster: 	0.151
+	separation:	0.563
+	avg separation:	1.881
+	accu: 		84.541%
+	l1: 		11.723
+	p dist pair: 	6.495
+iteration: 	1
+	train
+	time: 	54.000
+	cross ent: 	0.370
+	cluster: 	0.138
+	separation:	0.607
+	avg separation:	2.013
+	accu: 		85.090%
+	l1: 		11.529
+	p dist pair: 	6.495
+	test
+	time: 	9.206
+	cross ent: 	0.350
+	cluster: 	0.159
+	separation:	0.577
+	avg separation:	1.955
+	accu: 		83.575%
+	l1: 		11.529
+	p dist pair: 	6.495
+iteration: 	2
+	train
+	time: 	52.317
+	cross ent: 	0.364
+	cluster: 	0.135
+	separation:	0.630
+	avg separation:	2.049
+	accu: 		84.747%
+	l1: 		11.365
+	p dist pair: 	6.495
+	test
+	time: 	8.976
+	cross ent: 	0.329
+	cluster: 	0.157
+	separation:	0.580
+	avg separation:	1.971
+	accu: 		85.024%
+	l1: 		11.365
+	p dist pair: 	6.495
+epoch: 	7
+	warm
+	train
+	time: 	52.335
+	cross ent: 	0.322
+	cluster: 	0.204
+	separation:	0.893
+	avg separation:	2.459
+	accu: 		87.832%
+	l1: 		11.365
+	p dist pair: 	7.354
+	test
+	time: 	9.128
+	cross ent: 	0.300
+	cluster: 	0.196
+	separation:	0.950
+	avg separation:	2.419
+	accu: 		86.957%
+	l1: 		11.365
+	p dist pair: 	7.354
+epoch: 	8
+	warm
+	train
+	time: 	51.976
+	cross ent: 	0.288
+	cluster: 	0.220
+	separation:	2.468
+	avg separation:	4.640
+	accu: 		88.689%
+	l1: 		11.365
+	p dist pair: 	8.334
+	test
+	time: 	8.897
+	cross ent: 	0.335
+	cluster: 	0.204
+	separation:	2.953
+	avg separation:	5.970
+	accu: 		88.889%
+	l1: 		11.365
+	p dist pair: 	8.334
+epoch: 	9
+	warm
+	train
+	time: 	51.950
+	cross ent: 	0.330
+	cluster: 	0.320
+	separation:	5.463
+	avg separation:	9.176
+	accu: 		86.975%
+	l1: 		11.365
+	p dist pair: 	10.368
+	test
+	time: 	9.198
+	cross ent: 	0.321
+	cluster: 	0.479
+	separation:	7.888
+	avg separation:	12.225
+	accu: 		87.923%
+	l1: 		11.365
+	p dist pair: 	10.368
+epoch: 	10
+	warm
+	train
+	time: 	52.147
+	cross ent: 	0.295
+	cluster: 	0.374
+	separation:	10.020
+	avg separation:	15.450
+	accu: 		88.946%
+	l1: 		11.365
+	p dist pair: 	13.343
+	test
+	time: 	8.927
+	cross ent: 	0.315
+	cluster: 	0.321
+	separation:	9.714
+	avg separation:	18.463
+	accu: 		88.406%
+	l1: 		11.365
+	p dist pair: 	13.343
+epoch: 	11
+	warm
+	train
+	time: 	52.169
+	cross ent: 	0.285
+	cluster: 	0.379
+	separation:	14.737
+	avg separation:	21.674
+	accu: 		89.374%
+	l1: 		11.365
+	p dist pair: 	16.716
+	test
+	time: 	9.372
+	cross ent: 	0.371
+	cluster: 	0.551
+	separation:	17.126
+	avg separation:	26.264
+	accu: 		86.473%
+	l1: 		11.365
+	p dist pair: 	16.716
+epoch: 	12
+	warm
+	train
+	time: 	52.256
+	cross ent: 	0.324
+	cluster: 	0.536
+	separation:	22.074
+	avg separation:	30.935
+	accu: 		87.575%
+	l1: 		11.365
+	p dist pair: 	21.004
+	test
+	time: 	8.989
+	cross ent: 	0.325
+	cluster: 	0.572
+	separation:	20.798
+	avg separation:	30.033
+	accu: 		88.889%
+	l1: 		11.365
+	p dist pair: 	21.004
+	push
+	Executing push ...
+	push time: 	52.410566091537476
+	test
+	time: 	9.251
+	cross ent: 	0.316
+	cluster: 	0.295
+	separation:	9.115
+	avg separation:	13.826
+	accu: 		87.440%
+	l1: 		11.365
+	p dist pair: 	10.828
+	last layer
+iteration: 	0
+	train
+	time: 	52.349
+	cross ent: 	0.259
+	cluster: 	0.191
+	separation:	10.020
+	avg separation:	14.844
+	accu: 		91.088%
+	l1: 		11.329
+	p dist pair: 	10.828
+	test
+	time: 	8.969
+	cross ent: 	0.339
+	cluster: 	0.276
+	separation:	8.779
+	avg separation:	13.383
+	accu: 		86.957%
+	l1: 		11.329
+	p dist pair: 	10.828
+iteration: 	1
+	train
+	time: 	52.010
+	cross ent: 	0.254
+	cluster: 	0.176
+	separation:	10.003
+	avg separation:	14.796
+	accu: 		91.260%
+	l1: 		11.354
+	p dist pair: 	10.828
+	test
+	time: 	9.303
+	cross ent: 	0.299
+	cluster: 	0.263
+	separation:	8.586
+	avg separation:	13.124
+	accu: 		90.338%
+	l1: 		11.354
+	p dist pair: 	10.828
+iteration: 	2
+	train
+	time: 	53.066
+	cross ent: 	0.272
+	cluster: 	0.190
+	separation:	9.826
+	avg separation:	14.619
+	accu: 		91.260%
+	l1: 		11.357
+	p dist pair: 	10.828
+	test
+	time: 	9.095
+	cross ent: 	0.338
+	cluster: 	0.283
+	separation:	8.884
+	avg separation:	13.480
+	accu: 		87.440%
+	l1: 		11.357
+	p dist pair: 	10.828
+epoch: 	13
+	warm
+	train
+	time: 	52.439
+	cross ent: 	0.266
+	cluster: 	0.298
+	separation:	15.232
+	avg separation:	20.543
+	accu: 		90.574%
+	l1: 		11.357
+	p dist pair: 	15.315
+	test
+	time: 	9.271
+	cross ent: 	0.369
+	cluster: 	0.960
+	separation:	23.988
+	avg separation:	29.961
+	accu: 		88.889%
+	l1: 		11.357
+	p dist pair: 	15.315
+epoch: 	14
+	warm
+	train
+	time: 	52.449
+	cross ent: 	0.287
+	cluster: 	0.523
+	separation:	31.244
+	avg separation:	37.106
+	accu: 		89.803%
+	l1: 		11.357
+	p dist pair: 	21.463
+	test
+	time: 	9.083
+	cross ent: 	0.411
+	cluster: 	1.336
+	separation:	37.322
+	avg separation:	43.699
+	accu: 		86.957%
+	l1: 		11.357
+	p dist pair: 	21.463
+epoch: 	15
+	warm
+	train
+	time: 	53.641
+	cross ent: 	0.285
+	cluster: 	0.642
+	separation:	42.794
+	avg separation:	49.208
+	accu: 		90.403%
+	l1: 		11.357
+	p dist pair: 	26.876
+	test
+	time: 	9.007
+	cross ent: 	0.338
+	cluster: 	1.724
+	separation:	48.814
+	avg separation:	55.833
+	accu: 		89.855%
+	l1: 		11.357
+	p dist pair: 	26.876
+epoch: 	16
+	warm
+	train
+	time: 	52.591
+	cross ent: 	0.281
+	cluster: 	0.873
+	separation:	49.195
+	avg separation:	56.874
+	accu: 		90.317%
+	l1: 		11.357
+	p dist pair: 	32.004
+	test
+	time: 	9.064
+	cross ent: 	0.314
+	cluster: 	0.384
+	separation:	39.771
+	avg separation:	48.072
+	accu: 		88.889%
+	l1: 		11.357
+	p dist pair: 	32.004
+epoch: 	17
+	warm
+	train
+	time: 	52.998
+	cross ent: 	0.287
+	cluster: 	0.737
+	separation:	60.423
+	avg separation:	68.248
+	accu: 		90.146%
+	l1: 		11.357
+	p dist pair: 	37.594
+	test
+	time: 	9.078
+	cross ent: 	0.338
+	cluster: 	1.004
+	separation:	54.712
+	avg separation:	64.170
+	accu: 		88.406%
+	l1: 		11.357
+	p dist pair: 	37.594
+epoch: 	18
+	warm
+	train
+	time: 	53.370
+	cross ent: 	0.306
+	cluster: 	1.094
+	separation:	69.321
+	avg separation:	77.793
+	accu: 		89.032%
+	l1: 		11.357
+	p dist pair: 	42.558
+	test
+	time: 	9.060
+	cross ent: 	0.285
+	cluster: 	1.147
+	separation:	65.684
+	avg separation:	73.863
+	accu: 		90.821%
+	l1: 		11.357
+	p dist pair: 	42.558
+	push
+	Executing push ...
+	push time: 	52.88380813598633
+	test
+	time: 	9.043
+	cross ent: 	0.365
+	cluster: 	0.702
+	separation:	50.146
+	avg separation:	54.758
+	accu: 		91.304%
+	l1: 		11.357
+	p dist pair: 	29.348
+	above 88.00%
+	last layer
+iteration: 	0
+	train
+	time: 	52.169
+	cross ent: 	0.278
+	cluster: 	0.196
+	separation:	53.668
+	avg separation:	58.454
+	accu: 		93.059%
+	l1: 		11.161
+	p dist pair: 	29.348
+	test
+	time: 	9.025
+	cross ent: 	0.341
+	cluster: 	0.512
+	separation:	46.519
+	avg separation:	50.925
+	accu: 		91.787%
+	l1: 		11.161
+	p dist pair: 	29.348
+iteration: 	1
+	train
+	time: 	52.827
+	cross ent: 	0.243
+	cluster: 	0.262
+	separation:	52.983
+	avg separation:	57.797
+	accu: 		92.716%
+	l1: 		10.903
+	p dist pair: 	29.348
+	test
+	time: 	9.089
+	cross ent: 	0.285
+	cluster: 	0.725
+	separation:	49.282
+	avg separation:	53.906
+	accu: 		92.754%
+	l1: 		10.903
+	p dist pair: 	29.348
+iteration: 	2
+	train
+	time: 	54.018
+	cross ent: 	0.225
+	cluster: 	0.213
+	separation:	54.052
+	avg separation:	58.779
+	accu: 		92.973%
+	l1: 		10.630
+	p dist pair: 	29.348
+	test
+	time: 	9.193
+	cross ent: 	0.281
+	cluster: 	0.702
+	separation:	49.761
+	avg separation:	54.429
+	accu: 		92.271%
+	l1: 		10.630
+	p dist pair: 	29.348
+epoch: 	19
+	warm
+	train
+	time: 	53.637
+	cross ent: 	0.268
+	cluster: 	0.843
+	separation:	58.511
+	avg separation:	63.168
+	accu: 		90.231%
+	l1: 		10.630
+	p dist pair: 	39.151
+	test
+	time: 	9.120
+	cross ent: 	0.362
+	cluster: 	2.141
+	separation:	71.843
+	avg separation:	78.416
+	accu: 		89.855%
+	l1: 		10.630
+	p dist pair: 	39.151
+epoch: 	20
+	warm
+	train
+	time: 	52.780
+	cross ent: 	0.304
+	cluster: 	0.947
+	separation:	84.811
+	avg separation:	88.978
+	accu: 		91.088%
+	l1: 		10.630
+	p dist pair: 	44.099
+	test
+	time: 	9.089
+	cross ent: 	0.330
+	cluster: 	3.208
+	separation:	88.178
+	avg separation:	92.822
+	accu: 		90.338%
+	l1: 		10.630
+	p dist pair: 	44.099
+epoch: 	21
+	warm
+	train
+	time: 	53.218
+	cross ent: 	0.248
+	cluster: 	1.129
+	separation:	92.002
+	avg separation:	96.019
+	accu: 		91.431%
+	l1: 		10.630
+	p dist pair: 	48.797
+	test
+	time: 	9.083
+	cross ent: 	0.271
+	cluster: 	1.532
+	separation:	79.072
+	avg separation:	83.344
+	accu: 		89.372%
+	l1: 		10.630
+	p dist pair: 	48.797
+epoch: 	22
+	warm
+	train
+	time: 	52.547
+	cross ent: 	0.273
+	cluster: 	1.502
+	separation:	91.002
+	avg separation:	96.435
+	accu: 		89.803%
+	l1: 		10.630
+	p dist pair: 	52.078
+	test
+	time: 	9.142
+	cross ent: 	0.321
+	cluster: 	4.247
+	separation:	104.427
+	avg separation:	111.185
+	accu: 		89.372%
+	l1: 		10.630
+	p dist pair: 	52.078
+epoch: 	23
+	warm
+	train
+	time: 	53.169
+	cross ent: 	0.280
+	cluster: 	1.366
+	separation:	105.593
+	avg separation:	111.136
+	accu: 		89.717%
+	l1: 		10.630
+	p dist pair: 	55.908
+	test
+	time: 	9.150
+	cross ent: 	0.339
+	cluster: 	5.859
+	separation:	111.357
+	avg separation:	117.788
+	accu: 		87.923%
+	l1: 		10.630
+	p dist pair: 	55.908
+epoch: 	24
+	warm
+	train
+	time: 	56.861
+	cross ent: 	0.266
+	cluster: 	1.531
+	separation:	110.098
+	avg separation:	115.417
+	accu: 		90.488%
+	l1: 		10.630
+	p dist pair: 	58.439
+	test
+	time: 	9.439
+	cross ent: 	0.348
+	cluster: 	2.252
+	separation:	103.199
+	avg separation:	108.569
+	accu: 		88.406%
+	l1: 		10.630
+	p dist pair: 	58.439
+	push
+	Executing push ...
+	push time: 	53.98307514190674
+	test
+	time: 	9.108
+	cross ent: 	0.429
+	cluster: 	1.370
+	separation:	85.012
+	avg separation:	89.663
+	accu: 		90.821%
+	l1: 		10.630
+	p dist pair: 	43.632
+	above 88.00%
+	last layer
+iteration: 	0
+	train
+	time: 	52.838
+	cross ent: 	0.308
+	cluster: 	0.193
+	separation:	90.514
+	avg separation:	95.009
+	accu: 		93.402%
+	l1: 		10.030
+	p dist pair: 	43.632
+	test
+	time: 	9.342
+	cross ent: 	0.370
+	cluster: 	1.797
+	separation:	86.262
+	avg separation:	91.243
+	accu: 		93.237%
+	l1: 		10.030
+	p dist pair: 	43.632
+iteration: 	1
+	train
+	time: 	52.907
+	cross ent: 	0.251
+	cluster: 	0.274
+	separation:	91.241
+	avg separation:	95.732
+	accu: 		92.973%
+	l1: 		9.407
+	p dist pair: 	43.632
+	test
+	time: 	9.499
+	cross ent: 	0.292
+	cluster: 	1.606
+	separation:	83.494
+	avg separation:	88.197
+	accu: 		93.237%
+	l1: 		9.407
+	p dist pair: 	43.632
+iteration: 	2
+	train
+	time: 	53.840
+	cross ent: 	0.217
+	cluster: 	0.258
+	separation:	91.017
+	avg separation:	95.473
+	accu: 		93.231%
+	l1: 		8.916
+	p dist pair: 	43.632
+	test
+	time: 	9.335
+	cross ent: 	0.282
+	cluster: 	1.573
+	separation:	83.834
+	avg separation:	88.578
+	accu: 		92.754%
+	l1: 		8.916
+	p dist pair: 	43.632
+epoch: 	25
+	warm
+	train
+	time: 	53.156
+	cross ent: 	0.245
+	cluster: 	1.032
+	separation:	90.759
+	avg separation:	94.075
+	accu: 		90.660%
+	l1: 		8.916
+	p dist pair: 	50.027
+	test
+	time: 	9.064
+	cross ent: 	0.539
+	cluster: 	7.104
+	separation:	116.256
+	avg separation:	120.711
+	accu: 		75.362%
+	l1: 		8.916
+	p dist pair: 	50.027
+epoch: 	26
+	warm
+	train
+	time: 	53.033
+	cross ent: 	0.327
+	cluster: 	1.154
+	separation:	99.462
+	avg separation:	102.996
+	accu: 		87.232%
+	l1: 		8.916
+	p dist pair: 	54.052
+	test
+	time: 	9.745
+	cross ent: 	0.329
+	cluster: 	0.999
+	separation:	90.834
+	avg separation:	94.290
+	accu: 		88.889%
+	l1: 		8.916
+	p dist pair: 	54.052
+epoch: 	27
+	warm
+	train
+	time: 	52.686
+	cross ent: 	0.327
+	cluster: 	1.221
+	separation:	109.902
+	avg separation:	114.096
+	accu: 		89.974%
+	l1: 		8.916
+	p dist pair: 	57.116
+	test
+	time: 	9.095
+	cross ent: 	0.338
+	cluster: 	2.335
+	separation:	96.322
+	avg separation:	100.830
+	accu: 		89.855%
+	l1: 		8.916
+	p dist pair: 	57.116
+epoch: 	28
+	warm
+	train
+	time: 	53.531
+	cross ent: 	0.358
+	cluster: 	1.005
+	separation:	118.449
+	avg separation:	123.219
+	accu: 		88.860%
+	l1: 		8.916
+	p dist pair: 	60.750
+	test
+	time: 	9.127
+	cross ent: 	0.483
+	cluster: 	6.104
+	separation:	124.214
+	avg separation:	130.693
+	accu: 		79.710%
+	l1: 		8.916
+	p dist pair: 	60.750
+epoch: 	29
+	warm
+	train
+	time: 	53.004
+	cross ent: 	0.370
+	cluster: 	2.094
+	separation:	120.201
+	avg separation:	126.708
+	accu: 		87.232%
+	l1: 		8.916
+	p dist pair: 	62.159
+	test
+	time: 	9.154
+	cross ent: 	0.386
+	cluster: 	4.895
+	separation:	122.211
+	avg separation:	129.056
+	accu: 		86.957%
+	l1: 		8.916
+	p dist pair: 	62.159
+epoch: 	30
+	warm
+	train
+	time: 	53.437
+	cross ent: 	0.349
+	cluster: 	1.517
+	separation:	123.815
+	avg separation:	129.999
+	accu: 		89.032%
+	l1: 		8.916
+	p dist pair: 	63.105
+	test
+	time: 	9.167
+	cross ent: 	0.355
+	cluster: 	2.299
+	separation:	115.736
+	avg separation:	122.163
+	accu: 		88.889%
+	l1: 		8.916
+	p dist pair: 	63.105
+	push
+	Executing push ...
+	push time: 	53.66967010498047
+	test
+	time: 	9.167
+	cross ent: 	0.360
+	cluster: 	1.385
+	separation:	97.251
+	avg separation:	102.443
+	accu: 		91.787%
+	l1: 		8.916
+	p dist pair: 	48.870
+	above 88.00%
+	last layer
+iteration: 	0
+	train
+	time: 	52.972
+	cross ent: 	0.238
+	cluster: 	0.390
+	separation:	103.633
+	avg separation:	108.396
+	accu: 		94.344%
+	l1: 		8.695
+	p dist pair: 	48.870
+	test
+	time: 	9.149
+	cross ent: 	0.293
+	cluster: 	1.299
+	separation:	97.740
+	avg separation:	103.125
+	accu: 		91.304%
+	l1: 		8.695
+	p dist pair: 	48.870
+iteration: 	1
+	train
+	time: 	52.895
+	cross ent: 	0.211
+	cluster: 	0.268
+	separation:	102.080
+	avg separation:	106.894
+	accu: 		93.145%
+	l1: 		8.588
+	p dist pair: 	48.870
+	test
+	time: 	9.050
+	cross ent: 	0.246
+	cluster: 	1.340
+	separation:	96.547
+	avg separation:	101.742
+	accu: 		92.271%
+	l1: 		8.588
+	p dist pair: 	48.870
+iteration: 	2
+	train
+	time: 	53.451
+	cross ent: 	0.170
+	cluster: 	0.368
+	separation:	102.866
+	avg separation:	107.885
+	accu: 		93.916%
+	l1: 		8.554
+	p dist pair: 	48.870
+	test
+	time: 	9.243
+	cross ent: 	0.244
+	cluster: 	1.328
+	separation:	97.831
+	avg separation:	103.218
+	accu: 		91.787%
+	l1: 		8.554
+	p dist pair: 	48.870
+epoch: 	31
+	warm
+	train
+	time: 	53.084
+	cross ent: 	0.245
+	cluster: 	0.708
+	separation:	105.799
+	avg separation:	110.881
+	accu: 		92.973%
+	l1: 		8.554
+	p dist pair: 	55.417
+	test
+	time: 	9.170
+	cross ent: 	0.357
+	cluster: 	4.840
+	separation:	117.090
+	avg separation:	125.190
+	accu: 		88.889%
+	l1: 		8.554
+	p dist pair: 	55.417
+epoch: 	32
+	warm
+	train
+	time: 	53.559
+	cross ent: 	0.372
+	cluster: 	1.005
+	separation:	115.615
+	avg separation:	121.108
+	accu: 		88.089%
+	l1: 		8.554
+	p dist pair: 	60.315
+	test
+	time: 	9.156
+	cross ent: 	0.423
+	cluster: 	1.536
+	separation:	110.380
+	avg separation:	115.995
+	accu: 		81.643%
+	l1: 		8.554
+	p dist pair: 	60.315
+epoch: 	33
+	warm
+	train
+	time: 	53.088
+	cross ent: 	0.429
+	cluster: 	1.301
+	separation:	124.505
+	avg separation:	130.818
+	accu: 		82.519%
+	l1: 		8.554
+	p dist pair: 	62.913
+	test
+	time: 	9.119
+	cross ent: 	0.464
+	cluster: 	3.773
+	separation:	120.429
+	avg separation:	128.596
+	accu: 		77.778%
+	l1: 		8.554
+	p dist pair: 	62.913
+epoch: 	34
+	warm
+	train
+	time: 	54.047
+	cross ent: 	0.410
+	cluster: 	1.353
+	separation:	129.392
+	avg separation:	136.916
+	accu: 		85.604%
+	l1: 		8.554
+	p dist pair: 	63.725
+	test
+	time: 	9.092
+	cross ent: 	0.442
+	cluster: 	2.319
+	separation:	123.396
+	avg separation:	130.902
+	accu: 		81.159%
+	l1: 		8.554
+	p dist pair: 	63.725
+epoch: 	35
+	warm
+	train
+	time: 	52.994
+	cross ent: 	0.382
+	cluster: 	1.812
+	separation:	127.277
+	avg separation:	134.997
+	accu: 		88.432%
+	l1: 		8.554
+	p dist pair: 	64.146
+	test
+	time: 	9.140
+	cross ent: 	0.393
+	cluster: 	2.151
+	separation:	117.571
+	avg separation:	126.336
+	accu: 		85.990%
+	l1: 		8.554
+	p dist pair: 	64.146
+epoch: 	36
+	warm
+	train
+	time: 	53.652
+	cross ent: 	0.384
+	cluster: 	1.941
+	separation:	125.099
+	avg separation:	134.282
+	accu: 		89.117%
+	l1: 		8.554
+	p dist pair: 	65.164
+	test
+	time: 	9.451
+	cross ent: 	0.391
+	cluster: 	3.272
+	separation:	122.040
+	avg separation:	130.917
+	accu: 		90.338%
+	l1: 		8.554
+	p dist pair: 	65.164
+	push
+	Executing push ...
+	push time: 	54.96222496032715
+	test
+	time: 	9.650
+	cross ent: 	0.326
+	cluster: 	2.277
+	separation:	105.549
+	avg separation:	109.788
+	accu: 		90.821%
+	l1: 		8.554
+	p dist pair: 	52.135
+	above 88.00%
+	last layer
+iteration: 	0
+	train
+	time: 	57.580
+	cross ent: 	0.196
+	cluster: 	0.757
+	separation:	111.923
+	avg separation:	116.258
+	accu: 		94.773%
+	l1: 		8.469
+	p dist pair: 	52.135
+	test
+	time: 	12.598
+	cross ent: 	0.288
+	cluster: 	1.939
+	separation:	104.438
+	avg separation:	108.619
+	accu: 		91.304%
+	l1: 		8.469
+	p dist pair: 	52.135
+iteration: 	1
+	train
+	time: 	59.791
+	cross ent: 	0.188
+	cluster: 	0.637
+	separation:	109.958
+	avg separation:	114.273
+	accu: 		94.344%
+	l1: 		8.442
+	p dist pair: 	52.135
+	test
+	time: 	9.358
+	cross ent: 	0.277
+	cluster: 	1.909
+	separation:	103.227
+	avg separation:	107.364
+	accu: 		91.787%
+	l1: 		8.442
+	p dist pair: 	52.135
+iteration: 	2
+	train
+	time: 	57.023
+	cross ent: 	0.209
+	cluster: 	0.367
+	separation:	111.540
+	avg separation:	115.624
+	accu: 		94.173%
+	l1: 		8.428
+	p dist pair: 	52.135
+	test
+	time: 	9.576
+	cross ent: 	0.277
+	cluster: 	2.111
+	separation:	105.546
+	avg separation:	109.803
+	accu: 		92.271%
+	l1: 		8.428
+	p dist pair: 	52.135
