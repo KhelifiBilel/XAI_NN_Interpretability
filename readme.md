@@ -9,7 +9,8 @@
 ### Dataset
 * Le dataset que nous utilisons est composé de 756 vidéos. Chaque vidéo contient entre 300 et 600 images avec une résolution de 500 x 500 pixels. Chaque vidéo illustre le développement d’un embryon particulier et chaque frame de chaque vidéo correspond finalement à une classe. Étant donné que nous avons travaillé sur la prédiction de la phase d’apparition des pronuclei tPN, on élimine par conséquent chaque image qui dépasse la fin de cette phrase particulière.
 
-Lien du dataset: zenodo.org/record/6390798/files/embryo_dataset.tar.gz?download=1
+Lien du dataset: [link](zenodo.org/record/6390798/files/embryo_dataset.tar.gz?download=1)
+
 
 Pour améliorer la qualité des données, on applique un cropping automatique avec Hough Transform et une amélioration des paramètres de brillance et contraste des frames.
 
@@ -27,6 +28,7 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
 * **image_analysis.py** : Utilisé pour les tests du modèle qui est déja entrainé, avec une image d'entrée (local tests).
 * **saved_models** : répertoire utilisé pour sauvegarder toutes les exécutions de la phase d'apprenitssage : les prototypes, le fichier log des métriques, un snapshot du modèle (fichier des poids.pth) si on dépasse un seuil fixé d'accuracy.
 * **pretrained_models** : répertoire pour sauvegarder les poids des modèles backbones utililsés, si on opte pour un apprentiisage avec l'option pretrained.
+* **preprocess.py** : pour la normalisation des entrées (controler les poids).
 * **hough** : code de Hough Transform pour le cropping des images.
 
 `Techniques utilisées lors de l’apprentissage:`
@@ -72,7 +74,17 @@ Vous pouvez tester votre modèle, sur des images de test, avec le script image_a
 * **img** : le nom de fichier de l'image à analyser.
 * **imgclass** : l'indice de la classe correcte de l'image (groundtruth).
 
-Quelques résultats sont générés sous le répertoire **saved_models**
+
+Quelques résultats sont générés sous le répertoire **saved_models**.
+
+Ce répertoire contient, pour chaque architecture CNN de base (backbone), les résultats obtenus pour chaque essai:
+* le repértoire **img** : généré lors de l'apprentissage contenant les prototypes extraits pour chaque epoch (on a gardé seulement les résultats du dernier epoch:36).
+* le fichier **train.log** : contenant les résultats lors de l'appprentissage, les métriques.. (history).
+* Un fichier .pth qui est le résultat de l'apprentissage, le nom de ce fichier inclut la valeur de l'accuracy (test) correspondante.
+* Un répertoire du même nom que ce fichier, généré lors de la phase du test du modèle, qui fournit tous les résultats relatives à une image de test, les prototypes similaires par ordre ....
+
+
 Crédits
 -------
-    Ce code est partiellement basé sur le travail de [github.com/cfchen-duke/]. Je tiens à remercier les auteurs de ProtoPNet pour avoir partagé leur solution.
+    Ce code est partiellement basé sur le travail de [github.com/cfchen-duke/]. 
+    Je tiens à remercier les auteurs de ProtoPNet pour avoir partagé leur solution.
