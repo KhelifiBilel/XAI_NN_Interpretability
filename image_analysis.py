@@ -18,7 +18,6 @@ from helpers import makedir, find_high_activation_crop
 import model
 import push
 import train_and_test as tnt
-import save
 from log import create_logger
 from preprocess import *
 
@@ -26,24 +25,23 @@ from preprocess import *
 
 # specify the test image to be analyzed
 test_image_dir = "/Users/khelifibilel/Desktop/data/CROP/F_600/tPN/"
-test_image_name = "D2017.05.10_S1926_I132_WELL6_RUN83.jpeg"
-test_image_label = 1
+test_image_name = "D2013.06.13_S0851_I132_WELL4_RUN48.jpeg"
+test_image_label = 0
 
 test_image_path = os.path.join(test_image_dir, test_image_name)
 
 # load the model
 check_test_accu = False
 
-load_model_dir = "/Users/khelifibilel/Untitled Folder 2/saved_models/densenet201/FINAL_TEST/"
-load_model_name = "36push0.8254.pth"
+load_model_dir = "/Users/khelifibilel/Untitled Folder 2/saved_models/densenet169/last/"
+load_model_name = "36push0.7714.pth"
 
 
 
-model_base_architecture = load_model_dir.split('/')[2]
-experiment_run = '/'.join(load_model_dir.split('/')[3:])
+model_base_architecture = load_model_dir.split('/')[5]
+experiment_run = '/'.join(load_model_dir.split('/')[6:])
 
-save_analysis_path = os.path.join(test_image_dir, model_base_architecture,
-                                  experiment_run, load_model_name)
+save_analysis_path = os.path.join(load_model_dir, load_model_name.split('.pth')[0])
 makedir(save_analysis_path)
 
 log, logclose = create_logger(log_filename=os.path.join(save_analysis_path, 'local_analysis.log'))
@@ -205,12 +203,12 @@ for i in range(1,2):
     high_act_patch_indices = find_high_activation_crop(upsampled_activation_pattern)
     high_act_patch = original_img[high_act_patch_indices[0]:high_act_patch_indices[1],
                                   high_act_patch_indices[2]:high_act_patch_indices[3], :]
-    log('most highly activated patch of the chosen image by this prototype:')
+    #log('most highly activated patch of the chosen image by this prototype:')
     #plt.axis('off')
     plt.imsave(os.path.join(save_analysis_path, 'most_activated_prototypes',
                             'most_highly_activated_patch_by_top-%d_prototype.png' % i),
                high_act_patch)
-    log('most highly activated patch by this prototype shown in the original image:')
+    #log('most highly activated patch by this prototype shown in the original image:')
     imsave_with_bbox(fname=os.path.join(save_analysis_path, 'most_activated_prototypes',
                             'most_highly_activated_patch_in_original_img_by_top-%d_prototype.png' % i),
                      img_rgb=original_img,
@@ -226,7 +224,7 @@ for i in range(1,2):
     heatmap = np.float32(heatmap) / 255
     heatmap = heatmap[...,::-1]
     overlayed_img = 0.5 * original_img + 0.3 * heatmap
-    log('prototype activation map of the chosen image:')
+    #log('prototype activation map of the chosen image:')
     #plt.axis('off')
     plt.imsave(os.path.join(save_analysis_path, 'most_activated_prototypes',
                             'prototype_activation_map_by_top-%d_prototype.png' % i),
