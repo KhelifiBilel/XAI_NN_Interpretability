@@ -1,0 +1,46 @@
+load model from /Users/khelifibilel/Untitled Folder 2/saved_models/resnet34/FINAL_TEST/36push0.908.pth
+model base architecture: resnet34
+experiment run: FINAL_TEST/
+Prototypes are chosen from 2 number of classes.
+Their class identities are: [0 0 0 0 1 1 1 1]
+All prototypes connect most strongly to their respective classes.
+0 (1, 1)
+Predicted: 1
+Actual: 1
+Most activated 2 prototypes of this image:
+top 1 activated prototype for this image:
+prototype index: 5
+prototype class identity: 1
+activation value (similarity score): 1.2619738578796387
+last layer connection with predicted class: 1.1943376064300537
+--------------------------------------------------------------
+top 2 activated prototype for this image:
+prototype index: 7
+prototype class identity: 1
+activation value (similarity score): 0.012699330225586891
+last layer connection with predicted class: 0.9339741468429565
+--------------------------------------------------------------
+Prediction is correct.
+load model from /Users/khelifibilel/Untitled Folder 2/saved_models/resnet34/FINAL_TEST/36push0.908.pth
+model base architecture: resnet34
+experiment run: FINAL_TEST/
+Prototypes are chosen from 2 number of classes.
+Their class identities are: [0 0 0 0 1 1 1 1]
+All prototypes connect most strongly to their respective classes.
+0 (1, 1)
+Predicted: 1
+Actual: 1
+Most activated 2 prototypes of this image:
+top 1 activated prototype for this image:
+prototype index: 5
+prototype class identity: 1
+activation value (similarity score): 1.4644336700439453
+last layer connection with predicted class: 1.1943376064300537
+--------------------------------------------------------------
+top 2 activated prototype for this image:
+prototype index: 7
+prototype class identity: 1
+activation value (similarity score): 0.012720987200737
+last layer connection with predicted class: 0.9339741468429565
+--------------------------------------------------------------
+Prediction is correct.
