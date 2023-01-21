@@ -27,7 +27,6 @@ Pour améliorer la qualité des données, on applique un cropping automatique av
 * **image_analysis.py** : Utilisé pour les tests du modèle qui est déja entrainé, avec une image d'entrée (local tests).
 * **saved_models** : répertoire utilisé pour sauvegarder toutes les exécutions de la phase d'apprenitssage : les prototypes, le fichier log des métriques, un snapshot du modèle (fichier des poids.pth) si on dépasse un seuil fixé d'accuracy.
 * **pretrained_models** : répertoire pour sauvegarder les poids des modèles backbones utililsés, si on opte pour un apprentiisage avec l'option pretrained.
-* **preprocess.py** : pour la normalisation des entrées (controler les poids).
 * **hough** : code de Hough Transform pour le cropping des images.
 
 `Techniques utilisées lors de l’apprentissage:`
