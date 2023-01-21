@@ -76,8 +76,3 @@ Vous pouvez tester votre modèle, sur des images de test, avec le script image_a
 Crédits
 -------
     Ce code est partiellement basé sur le travail de [github.com/cfchen-duke/]. Je tiens à remercier les auteurs de ProtoPNet pour avoir partagé leur solution.
-
-
-
-
-
