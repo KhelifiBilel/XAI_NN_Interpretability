@@ -9,7 +9,7 @@
 ### Dataset
 * Le dataset que nous utilisons est composé de 756 vidéos. Chaque vidéo contient entre 300 et 600 images avec une résolution de 500 x 500 pixels. Chaque vidéo illustre le développement d’un embryon particulier et chaque frame de chaque vidéo correspond finalement à une classe. Étant donné que nous avons travaillé sur la prédiction de la phase d’apparition des pronuclei tPN, on élimine par conséquent chaque image qui dépasse la fin de cette phrase particulière.
 
-Lien du dataset: 
+Lien du dataset: zenodo.org/record/6390798/files/embryo_dataset.tar.gz?download=1
 
 Pour améliorer la qualité des données, on applique un cropping automatique avec Hough Transform et une amélioration des paramètres de brillance et contraste des frames.
 
