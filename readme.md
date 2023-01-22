@@ -87,6 +87,7 @@ Je finis par présenter 3 synthèses faites pour des papiers traitant l'interpr�
 * [One Explanation Does Not Fit All: A Toolkit and Taxonomy of AI Explainability Techniques](https://fringe-frost-fe0.notion.site/One-Explanation-Does-Not-Fit-All-A-Toolkit-and-Taxonomy-of-AI-Explainability-Techniques-d2abb307f14f47078fc0137509905aa8)
 * [Stop Explaining Black Box Machine Learning Models for High Stakes Decisions and Use Interpretable Models Instead](https://fringe-frost-fe0.notion.site/Stop-Explaining-Black-Box-Machine-Learning-Models-for-High-Stakes-Decisions-and-Use-Interpretable-Mo-dd329da09ffc41298a1f4fa6168de9e2)
 * [An Interpretable Model with Globally Consistent Explanations for Credit Risk](https://fringe-frost-fe0.notion.site/An-Interpretable-Model-with-Globally-Consistent-Explanations-for-Credit-Risk-c617a2e4ced347e283e462d870aa846a)
+
 Crédits
 -------
     Ce code est partiellement basé sur le travail de [github.com/cfchen-duke/]. 
